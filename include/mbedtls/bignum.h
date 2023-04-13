@@ -85,7 +85,7 @@
 #define MBEDTLS_MPI_MAX_SIZE                              1024     /**< Maximum number of bytes for usable MPIs. */
 #endif /* !MBEDTLS_MPI_MAX_SIZE */
 
-#define MBEDTLS_MPI_MAX_BITS                              (8 * MBEDTLS_MPI_MAX_SIZE)      /**< Maximum number of bits for usable MPIs. */
+#define MBEDTLS_MPI_MAX_BITS                              (16 * MBEDTLS_MPI_MAX_SIZE)      /**< Maximum number of bits for usable MPIs. */
 
 /*
  * When reading from files with mbedtls_mpi_read_file() and writing to files with
